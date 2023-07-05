@@ -1,0 +1,137 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-cont {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 500px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.click-dial {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  color: #00d9f5;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.clock-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-reset-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-cont {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  height: 30px;
+}
+
+.button-side-text {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 15px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.options-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.plus-minus-btn {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-btn {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #00d9f5;
+  border: 0;
+  outline: none;
+  font-weight: 500;
+  font-size: 25px;
+}
