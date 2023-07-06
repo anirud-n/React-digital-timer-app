@@ -122,7 +122,7 @@ class DigitalTimer extends Component {
             <div className="start-reset-cont">
               <div className="sub-cont">
                 <button
-                  className="buttons"
+                  className="buttons button-side-text"
                   onClick={this.onClickStartPause}
                   type="button"
                 >
@@ -135,29 +135,20 @@ class DigitalTimer extends Component {
                     alt={isStart ? 'pause icon' : 'play icon'}
                     className="images"
                   />
-                </button>
-                <button
-                  className="button-side-text"
-                  onClick={this.onClickStartPause}
-                >
                   {isStart ? 'Pause' : 'Start'}
                 </button>
               </div>
               <div className="sub-cont">
-                <button className="buttons" type="button">
+                <button
+                  className="buttons button-side-text"
+                  onClick={this.resetTime}
+                  type="button"
+                >
                   <img
                     src="https://assets.ccbp.in/frontend/react-js/reset-icon-img.png"
                     alt="reset icon"
                     className="images"
-                    onClick={this.resetTime}
-                    type="button"
                   />
-                </button>
-                <button
-                  className="button-side-text"
-                  onClick={this.resetTime}
-                  type="button"
-                >
                   Reset
                 </button>
               </div>
